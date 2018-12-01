@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
                 showToast("All fields are mandatory.")
             }
         }
-
     }
 
     private fun validate() = productNameLayout.getText().isNotEmpty() && productAmountLayout.getText().isNotEmpty()
